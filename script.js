@@ -16,6 +16,7 @@ const getSum = ()=>{
 	
 	totalcell.textContent = total;
 	levelcell.textContent ='Total Price :';
+	newRow.id = 'amswer'
 
 	newRow.append(levelcell,totalcell);
 	table.appendChild(newRow);
